@@ -1,0 +1,16 @@
+{
+  "name": "kitchen-sync-broker",
+  "version": "1.0.0",
+  "description": "WebSocket cloud room-based broker for KitchenSync",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true
+}
